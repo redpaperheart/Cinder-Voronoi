@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cinder>
+<block
+	name="Cinder-Voronoi"
+	id="com.redpaperheart.voronoi"
+    git="git@github.com:redpaperheart/Cinder-Voronoi.git"
+	author="Red Paper Heart"
+	summary="(A)Synchronous loading and managing of images."
+    version="1.1"
+    url="https://github.com/redpaperheart/Cinder-Voronoi"
+	>
+	<supports os="macosx" />
+    <supports os="ios" />
+    <supports os="msw" />
+    <includePath>src</includePath>
+    <includePath>libs/Voro++2D</includePath>
+    <header>src/Voronoi.h</header>
+    <source>src/Voronoi.cpp</source>
+    
+    <header>libs/Voro++2D/c_loops_2d.h</header>
+    <header>libs/Voro++2D/cell_2d.h</header>
+    <header>libs/Voro++2D/cell_nc_2d.h</header>
+    <header>libs/Voro++2D/common.h</header>
+    <header>libs/Voro++2D/config.h</header>
+    <header>libs/Voro++2D/container_2d.h</header>
+    <header>libs/Voro++2D/ctr_boundary_2d.h</header>
+    <header>libs/Voro++2D/rad_option.h</header>
+    <header>libs/Voro++2D/v_base_2d.h</header>
+    <header>libs/Voro++2D/v_compute_2d.h</header>
+    <header>libs/Voro++2D/voro++_2d.h</header>
+    <header>libs/Voro++2D/wall_2d.h</header>
+    <header>libs/Voro++2D/worklist_2d.h</header>
+    
+    <source>libs/Voro++2D/cell_2d.cpp</source>
+    <source>libs/Voro++2D/cell_nc_2d.cpp</source>
+    <source>libs/Voro++2D/common.cpp</source>
+    <source>libs/Voro++2D/container_2d.cpp</source>
+    <source>libs/Voro++2D/ctr_boundary_2d.cpp</source>
+    <source>libs/Voro++2D/v_base_2d.cpp</source>
+    <source>libs/Voro++2D/v_base_wl_2d.cpp</source>
+    <source>libs/Voro++2D/v_compute_2d.cpp</source>
+    <source>libs/Voro++2D/wall_2d.cpp</source>
+</block>
+</cinder>
